@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Agro IT Academy</title>
+    <title>Agro IT Arena</title>
     <!-- CHANGE THESE VALUES -->
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
@@ -11,13 +11,14 @@
   <body style="font-family: sans-serif">
     <header>
         <div style="display: inline-block;">
-        <h1 style="padding-left: 2em; font-size: xx-large; color: white">Agro IT Academy</h1>
+        <h1 style="padding-left: 2em; font-size: xx-large; color: white">Agro IT Arena</h1>
         </div>
         <div style="float: right;">
-            <a href="#">
-            <button class="headerItem">
-                <h1>Projects</h1>
-            </button></a>
+            <a href="#projects">
+                <button class="headerItem">
+                    <h1>Projects</h1>
+                </button>
+            </a>
             <button class="headerItem">
                 <h1>About us</h1>
             </button>
@@ -30,9 +31,64 @@
         </div>
     </header>
 
-    <img class="mainImage" src="images/greenhouse1.webp" alt="">
+    <!-- <img class="mainImage" src="images/greenhouse1.webp"> -->
+    <div class="hero-image">
+        <div class="hero-text">
+          <h1 style="font-size:60px; margin-bottom: 40px;">Cultivating the future</h1>
+          <button>Invest now</button>
+        </div>
+    </div>
 
-    
+    <div class="projectSection">
+        <h1 id="projects" style="font-size: 35px;text-align: center; font-weight: bold; color: var(--agroColor);">Projects</h1>
+        <br>
+        <div class="projects">
+            <div class="project">
+                <h1 class="projectTitle">Agrobot</h1>
+                <img class="projectImage" src="images/rover.jpg">
+                <br><br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </div>
+
+            <div class="project">
+                <h1 class="projectTitle">Swarm drones</h1>
+                <img class="projectImage" src="images/swarm_drone.avif">
+                <br><br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </div>
+
+            <div class="project">
+                <h1 class="projectTitle">Smart greenhouse</h1>
+                <img class="projectImage" src="images/greenhouse2.webp">
+                <br><br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </div>
+
+            <div class="project">
+                <h1 class="projectTitle">Sorting robot arm</h1>
+                <img class="projectImage" src="images/robot_arm.jpg">
+                <br><br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </div>
+        </div>
+
+    </div>
 
     <footer>
         © 2024

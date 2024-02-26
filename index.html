@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Agro IT Arena</title>
+    <title>Agro IT Academy</title>
     <!-- CHANGE THESE VALUES -->
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
@@ -11,7 +11,7 @@
   <body style="font-family: sans-serif">
     <header>
         <div style="display: inline-block;">
-        <h1 style="padding-left: 2em; font-size: xx-large; color: white">Agro IT Arena</h1>
+        <h1 style="padding-left: 2em; font-size: xx-large; color: white">Agro IT Academy</h1>
         </div>
         <div style="float: right;">
             <a href="#about">
@@ -45,7 +45,9 @@
     <div class="hero-image">
         <div class="hero-text">
           <h1 style="font-size:60px; margin-bottom: 40px;">Cultivating the future</h1>
-          <button>Invest now</button>
+          <a href="#contacts">
+            <button>Join now</button>
+          </a>
         </div>
     </div>
 
@@ -74,44 +76,34 @@
                 <h1 class="projectTitle">Agrobot</h1>
                 <img class="projectImage" src="images/rover.jpg">
                 <br><br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                A ground based drone designed for agricultural work. Its potential limitless,
+                from planting and irigation to pest control and harvesting, the rover can be built to do it all. 
+                Based on cutting-edge GPS technology, it will leave in the spring and return in the autumn performing all work autonomously.
             </div>
 
             <div class="project">
                 <h1 class="projectTitle">Swarm drones</h1>
                 <img class="projectImage" src="images/swarm_drone.avif">
                 <br><br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                A cluster of aerial drones designated to scan growing plants to then be able to perform predictive analysis
+                to figure out the amount of harvest one would get from their fruit trees. That information can then be used to 
+                reduce growth in some areas in order to obtain the same harvest consistently.
             </div>
 
             <div class="project">
                 <h1 class="projectTitle">Smart greenhouse</h1>
                 <img class="projectImage" src="images/greenhouse2.webp">
                 <br><br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Called “Smart Environment”, involves the creation of an environment with controlled artificial climate, 
+                fully automated and completely excluding human involvement in the growth of agricultural crops
             </div>
 
             <div class="project">
                 <h1 class="projectTitle">Sorting robot arm</h1>
                 <img class="projectImage" src="images/robot_arm.jpg">
                 <br><br>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                A CNC machine equiped with a camera, capable of distinguishing objects with a high precision and sorting them.
+                Objects are picked up by pulling a vacuum at the end of the mechanic appendage.
             </div>
         </div>
 
@@ -132,6 +124,54 @@
         </div>
         
         <hr>
+    </div>
+    <div class="contactSection">
+        <h1 id="contacts" class="sectionTitle" style="margin-bottom: 20px;">Join the program</h1>
+        <p>
+            Sign up and become part of a growing community. Build the future with us.
+        </p>
+        <br>
+        Email: agro.academy@utm.md,  <a href="https://www.linkedin.com/pulse/agro-academy-place-where-agriculture-integrates-information-/?trk=organization-update-content_share-article">LinkedIn</a>
+        <div class="container">
+            <form>
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">First Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Last Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="email">Email</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="email" name="email" placeholder="Your email..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Subject</label>
+              </div>
+              <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Tell us about yourself.." style="height:200px"></textarea>
+              </div>
+            </div>
+            <br>
+            <div class="row" style="margin-left: 240px">
+              <input type="submit" value="Submit">
+            </div>
+            </form>
+          </div>
     </div>
     <footer>
         © 2024

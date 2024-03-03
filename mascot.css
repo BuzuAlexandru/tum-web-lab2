@@ -8,13 +8,13 @@
     height: 23%;
     z-index: 2;
     animation: 
-        spawn 0s ease-out,
-        hover 3s ease-out 0s infinite;
+        spawn 5s ease-out,
+        hover 3s ease-out 5.5s infinite;
 }
 
 #mascot{
     height: 80%;
-    animation: flip 10s ease-out 0s infinite;
+    animation: flip 10s ease-out 7s infinite;
 }
 
 #mascotMessage{

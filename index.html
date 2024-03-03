@@ -8,6 +8,9 @@
     <link rel="icon" href="images/agroAcademy_logo.png" type="image/x-icon">
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anta&family=Electrolize&family=Raleway:ital,wght@0,421;1,421&display=swap" rel="stylesheet">
@@ -19,7 +22,35 @@
           <img id="logo" src="images/agroAcademy_logo.png" alt="">
           <h1 class="title">Agro IT Academy</h1>
         </div>
-        <div>
+
+        <div class="dropdown">
+          <label for="drop" class="dropbtn">&#9776;</label>
+          <input type="checkbox" id="drop">
+          <div class="dropdown-content">
+            <a href="#about">
+              <button class="headerItem">
+                  <h1>About us</h1>
+              </button>
+            </a>
+            <a href="#projects">
+                <button class="headerItem">
+                    <h1>Projects</h1>
+                </button>
+            </a>
+            <a href="#sponsors">
+                <button class="headerItem">
+                    <h1>Sponsors</h1>
+                </button>
+            </a>
+            <a href="#contacts">
+                <button class="headerItem">
+                    <h1>Contacts</h1>
+                </button>
+            </a>
+          </div>
+        </div>
+        
+        <div id="nav">
             <a href="#about">
                 <button class="headerItem">
                     <h1>About us</h1>
@@ -82,7 +113,6 @@
             <div class="project">
                 <h1 class="projectTitle">Agrobot</h1>
                 <img class="projectImage" src="images/rover.jpg">
-                <br><br>
                 A ground based drone designed for agricultural work. Its potential limitless,
                 from planting and irigation to pest control and harvesting, the rover can be built to do it all. 
                 Based on cutting-edge GPS technology, it will leave in the spring and return in the autumn performing all work autonomously.
@@ -91,7 +121,6 @@
             <div class="project">
                 <h1 class="projectTitle">Swarm drones</h1>
                 <img class="projectImage" src="images/swarm_drone.avif">
-                <br><br>
                 A cluster of aerial drones designated to scan growing plants to then be able to perform predictive analysis
                 to figure out the amount of harvest one would get from their fruit trees. That information can then be used to 
                 reduce growth in some areas in order to obtain the same harvest consistently.
@@ -100,7 +129,6 @@
             <div class="project">
                 <h1 class="projectTitle">Smart greenhouse</h1>
                 <img class="projectImage" src="images/greenhouse2.webp">
-                <br><br>
                 Called “Smart Environment”, involves the creation of an environment with controlled artificial climate, 
                 fully automated and completely excluding human involvement in the growth of agricultural crops
             </div>
@@ -108,7 +136,6 @@
             <div class="project">
                 <h1 class="projectTitle">Sorting robot arm</h1>
                 <img class="projectImage" src="images/robot_arm.jpg">
-                <br><br>
                 A CNC machine equiped with a camera, capable of distinguishing objects with a high precision and sorting them.
                 Objects are picked up by pulling a vacuum at the end of the mechanic appendage.
             </div>
@@ -141,7 +168,7 @@
       <br>
       Email: agro.academy@utm.md,  <a href="https://www.linkedin.com/pulse/agro-academy-place-where-agriculture-integrates-information-/?trk=organization-update-content_share-article">LinkedIn</a>
       
-      <div style="width: 100%; display: flex; align-content: center; justify-content: center;">
+      <div id="formdiv" style="width: 100%; display: flex; align-content: center; justify-content: center;">
         <div class="container">
           <form>
             <label for="fname">First Name</label>

@@ -15,11 +15,11 @@
   
   <body>
     <header>
-        <div style="display: inline-block;">
+        <div style="display: flex; align-items: center;">
           <img id="logo" src="images/agroAcademy_logo.png" alt="">
-        <h1 class="title">Agro IT Academy</h1>
+          <h1 class="title">Agro IT Academy</h1>
         </div>
-        <div style="float: right;">
+        <div>
             <a href="#about">
                 <button class="headerItem">
                     <h1>About us</h1>
@@ -39,7 +39,7 @@
             </a>
 
             <a href="#contacts">
-                <button style="padding-right: 2em;" class="headerItem">
+                <button class="headerItem">
                     <h1>Contacts</h1>
                 </button>
             </a>
@@ -132,23 +132,20 @@
         
         <hr style="margin-top: 20px;">
     </div>
+
     <div class="contactSection">
-        <h1 id="contacts" class="sectionTitle" style="margin-bottom: 20px;">Join the program</h1>
-        <p>
-            Sign up and become part of a growing community. Build the future with us.
-        </p>
-        <br>
-        Email: agro.academy@utm.md,  <a href="https://www.linkedin.com/pulse/agro-academy-place-where-agriculture-integrates-information-/?trk=organization-update-content_share-article">LinkedIn</a>
+      <h1 id="contacts" class="sectionTitle" style="margin-bottom: 20px;">Join the program</h1>
+      <p>
+          Sign up and become part of a growing community. Build the future with us.
+      </p>
+      <br>
+      Email: agro.academy@utm.md,  <a href="https://www.linkedin.com/pulse/agro-academy-place-where-agriculture-integrates-information-/?trk=organization-update-content_share-article">LinkedIn</a>
+      
+      <div style="width: 100%; display: flex; align-content: center; justify-content: center;">
         <div class="container">
-            <form>
-            <div class="row">
-              <div class="col-25">
-                <label for="fname">First Name</label>
-              </div>
-              <div class="col-75">
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-              </div>
-            </div>
+          <form>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
             <div class="row">
               <div class="col-25">
                 <label for="lname">Last Name</label>
@@ -174,11 +171,12 @@
               </div>
             </div>
             <br>
-            <div class="row" style="margin-left: 240px">
+            <div class="row">
               <input type="submit" value="Submit">
             </div>
-            </form>
+          </form>
           </div>
+      </div>
     </div>
     <footer>
         © 2024

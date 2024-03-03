@@ -12,7 +12,7 @@
 
 @media screen and (max-width: 1220px) {
     .aboutSection p{
-        width: 70%;
+        width: 80%;
         font-size: large;
         line-height: 30px;
         margin-top: 10px;
@@ -66,7 +66,7 @@
 
     .sponsorSection img{
         box-sizing: border-box;
-        height: 80px;
+        height: 90px;
         align-self: center;
         justify-self: center;
         justify-content: center;
@@ -76,13 +76,16 @@
         padding: 5px;
     }
 
+    #usaid, #microlab{
+        height: 120px;
+    }
+
     .container {
         box-sizing: border-box;
         border-radius: 5px;
         padding: 20px;
         min-width: 0px !important;
         width: 100%;
-        /* max-width: 95vw; */
         text-align: left;
         background-color: #d8eed875;
       }

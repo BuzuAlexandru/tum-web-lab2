@@ -33,10 +33,7 @@
 }
 
 @keyframes spawn{
-    0%{
-        opacity: 0%;
-    }
-    85%{
+    0%, 85%{
         opacity: 0%;
     }
     100%{

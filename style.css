@@ -216,6 +216,8 @@ footer{
     box-sizing: border-box;
     font-size: 18px;
     line-height: 25px;
+    /* word-wrap: break-word; */
+    word-break: break-all;
     transition-duration: 0.4s;
 }
 .project:hover{
